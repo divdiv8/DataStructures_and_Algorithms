@@ -20,3 +20,11 @@ class Solution {
         return strList2;
     }
 }
+
+//one line solution 
+
+class Solution {
+    public String defangIPaddr(String address) {
+        return address.replace(".","[.]");
+    }
+}
